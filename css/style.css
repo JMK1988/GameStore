@@ -1,0 +1,218 @@
+html{
+
+    scroll-behavior: smooth;
+}
+.tarjeta{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+.carrusel{
+    margin-top: 126px;
+}
+.wsp{
+    justify-content: flex-end;
+}
+.what{
+    width: 10vh;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1030;
+    margin: 5px;
+}
+.dest{
+    margin-top: 120px;
+}
+.banner{
+    margin: 5px 0px;
+
+}
+.accesorios{
+    height: 100%;
+}
+body{
+    background: linear-gradient(to right, #557cbf, #6f3b6f);
+    background-size: cover;
+
+}
+.page-footer{
+    background-color: rgba(59,2,53, 0);
+    color: black;
+    font-weight: 300;
+
+}
+.mdb-color{
+    background-color: rgba(59,2,53, 0)!important;
+    color: black;
+    font-weight: 300;
+
+
+}
+.navegador{
+    background-color: rgba(59,2,53, 0);
+    font-weight: 300;
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 16%), 0 0px 0px 0 rgb(0 0 0 / 12%);
+    position: fixed;
+    z-index: 10;
+    background: linear-gradient(to right, #557cbf, #6f3b6f);
+    width: 100%;
+
+}
+.imgcarr{
+    border-radius: 10px;
+    box-shadow:  0 10px 10px 0 rgb(0 0 0 / 16%), 0 10px 10px 0 rgb(0 0 0 / 12%);
+}
+.consola{
+    border-radius: 10px 10px 10px 10px ;
+    margin-top: 20px;
+    -webkit-border-radius: 10px 10px 10px 10px ;
+    -moz-border-radius: 10px 10px 10px 10px ;
+    -ms-border-radius: 10px 10px 10px 10px ;
+    -o-border-radius: 10px 10px 10px 10px ;
+    transition: border-top ease-in .3s;
+    transition: border-bottom ease-in .3s;
+    -webkit-transition: border-bottom ease-in .3s;
+    -moz-transition: border-bottom ease-in .3s;
+    -ms-transition: border-bottom ease-in .3s;
+    -o-transition: border-bottom ease-in .3s;
+}
+.consola:hover{
+    
+  border-top: 2px solid red;
+  border-bottom: 7px solid red;
+
+}
+.nav-link:hover{
+    border-radius: 10px 10px 10px 10px ;
+    border-top: 2px solid #6f3b6f;
+    border-bottom: 7px solid #6f3b6f;
+
+}
+
+.destacado{
+    border-radius: 10px 10px ;
+    height: 600px;
+    transition: border-top ease-in .3s;
+    transition: border-bottom ease-in .3s;
+    
+    
+
+}
+.destacado:hover{
+    border-top: 2px solid red;
+    border-bottom: 7px solid red;
+
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+
+}
+.pesos::before{
+  content: "$ ";
+  color: black;
+
+}
+.card{
+    background: rgba(255,255,255,0.5);
+}
+#carrito{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: 0 auto;
+    
+
+}
+.noticia{
+margin: 5px;
+
+
+}
+.btn{
+    border-radius: 1.125rem;
+    -webkit-border-radius: 1.125rem;
+    -moz-border-radius: 1.125rem;
+    -ms-border-radius: 1.125rem;
+    -o-border-radius: 1.125rem;
+    margin: auto;
+}
+.card-body{
+    height: 250px;
+
+}
+.nove{
+    background: #32b5e4;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.cantidad{
+    position: absolute;
+    top: 55%;
+    
+    background: red;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2px;
+}
+@media (max-width: 990px){
+    .cantidad{
+        position: absolute;
+        top: 93%;
+        
+        background: red;
+        font-size: 10px;
+        width: 15px;
+        height: 15px;
+        border-radius:50% ;
+        -webkit-border-radius:50% ;
+        -moz-border-radius:50% ;
+        -ms-border-radius:50% ;
+        -o-border-radius:50% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 2px;
+    }
+
+
+}
+.CardFinalizado{
+
+    margin-top: 200px;
+    background: rgba(255,255,255,0.2);
+    padding: 20px 10px;
+    
+
+}
+.registro{
+
+    margin-top: 150px;
+}
+.botonaso{
+    background: linear-gradient(to right, #6f3b6f, #557cbf)!important;
+
+}
+
